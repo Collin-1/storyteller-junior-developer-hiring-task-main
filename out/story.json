@@ -1,0 +1,58 @@
+{
+  "pack_id": "celtic_kilmarnock_2025-11-09Z",
+  "title": "Top Moments \u2014 Celtic vs Kilmarnock",
+  "pages": [
+    {
+      "type": "cover",
+      "headline": "Celtic vs Kilmarnock",
+      "subheadline": "Scottish Premiership",
+      "image": "../assets/21521990.jpg"
+    },
+    {
+      "type": "highlight",
+      "minute": 9,
+      "headline": "GOAL \u2014 Johnny Kenny",
+      "caption": "Goal! Celtic 1, Kilmarnock 0. Johnny Kenny (Celtic) left footed shot from very close range to the bottom left corner. Assisted by Reo Hatate.",
+      "image": "../assets/21522057.jpg",
+      "explanation": "goal=5"
+    },
+    {
+      "type": "highlight",
+      "minute": 50,
+      "headline": "GOAL \u2014 Kieran Tierney",
+      "caption": "Goal! Celtic 2, Kilmarnock 0. Kieran Tierney (Celtic) left footed shot from outside the box to the bottom right corner. Assisted by Liam Scales.",
+      "image": "../assets/21522328.jpg",
+      "explanation": "goal=5"
+    },
+    {
+      "type": "highlight",
+      "minute": 84,
+      "headline": "GOAL \u2014 Daizen Maeda",
+      "caption": "Goal! Celtic 3, Kilmarnock 0. Daizen Maeda (Celtic) right footed shot from the right side of the box to the bottom right corner. Assisted by Arne Engels with a through ball.",
+      "image": "../assets/21522413.jpg",
+      "explanation": "goal=5 + late_bonus=1"
+    },
+    {
+      "type": "highlight",
+      "minute": 92,
+      "headline": "PENALTY GOAL \u2014 Arne Engels",
+      "caption": "Goal! Celtic 4, Kilmarnock 0. Arne Engels (Celtic) converts the penalty with a right footed shot to the bottom left corner.",
+      "image": "../assets/21522436.jpg",
+      "explanation": "penalty goal=5 + late_bonus=1"
+    },
+    {
+      "type": "highlight",
+      "minute": 93,
+      "headline": "FULL TIME",
+      "caption": "Second Half ends, Celtic 4, Kilmarnock 0.",
+      "image": "../assets/21522449.jpg",
+      "explanation": "end 2=6 + late_bonus=1"
+    }
+  ],
+  "metrics": {
+    "highlights": 5,
+    "goals": 4
+  },
+  "source": "data\\match_events.json",
+  "created_at": "2025-12-04T21:07:58Z"
+}
