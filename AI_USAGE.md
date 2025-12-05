@@ -1,5 +1,7 @@
 # AI USAGE
 
+My approach to using AI was highly iterative and collaborative, rather than being split into distinct "AI" and "manual" tasks. I often used AI to generate initial implementations—such as the logic for finding matching images—and then intervened manually when the results were not accurate. For instance, the AI's initial image matching algorithm selected incorrect images for goals, so I manually modified the code to prioritize specific scorelines (e.g., matching "1-0" in descriptions) over generic scoring. This workflow involved constant switching between AI generation and manual refinement to ensure the desired results were achieved.
+
 ## Where AI helped
 - AI (GitHub Copilot) helped parse the README and understand the schema requirements
 - Used AI to understand the story.schema.json structure and required fields

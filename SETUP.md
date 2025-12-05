@@ -34,16 +34,32 @@
 
 ## Running the Story Builder
 
+To generate a story pack using the default configuration:
+
 ```bash
-python scripts/build_story.py
+python scripts/build_story.py --weights weights.example.json
 ```
 
-The script will prompt you for the weights file location if not found automatically.
+You can also specify custom input and output paths:
+
+```bash
+python scripts/build_story.py --input data/match_events.json --output out/story.json --weights weights.example.json
+```
+
+If you don't provide the `--weights` argument, the script will look for `weights.example.json` or prompt you for a path.
 
 ## Running Tests
 
+To run all tests to verify the project invariants:
+
 ```bash
 pytest
+```
+
+To run tests with verbose output:
+
+```bash
+pytest -v
 ```
 
 ## Deactivating the Virtual Environment
